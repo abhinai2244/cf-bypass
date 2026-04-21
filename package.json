@@ -1,0 +1,21 @@
+{
+  "name": "cf-bypass",
+  "version": "1.0",
+  "description": "get the cf_clearance cookie from any website",
+  "scripts": {
+    "start": "bun src/index.ts",
+    "test": "bun src/tests/test.ts"
+  },
+  "dependencies": {
+    "chrome-launcher": "^1.1.2",
+    "express": "^5.1.0",
+    "ghost-cursor": "^1.3.0",
+    "puppeteer-extra": "^3.3.6",
+    "rebrowser-puppeteer-core": "^23.3.1",
+    "tree-kill": "^1.2.2",
+    "xvfb": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
